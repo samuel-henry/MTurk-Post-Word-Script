@@ -8,6 +8,7 @@ Based on aws-mturk-clt-1.3.1/samples/external_hit
 Some commands:
 
   Load HITs:
+  
   sh loadHits.sh -input ./post_word/external_hit.input -question ./post_word/external_hit.question -properties ./post_word/external_hit.properties -label external_hit
 
   Get results:
