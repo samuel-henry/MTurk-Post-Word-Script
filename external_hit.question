@@ -3,20 +3,32 @@
   <Question>
    <QuestionIdentifier>1</QuestionIdentifier>
    <QuestionContent>
-     <Text>Record yourself saying the word: ${words}</Text>
+     <Text>1. Record yourself saying the word: ${words}</Text>
+     <Text>2. Send me the recordings</Text>
      <List>
-	  <ListItem>Turn off all background music, tv, or other audio so your room is quiet</ListItem>
-	  <ListItem>Go to http://vocaroo.com</ListItem>
-	  <ListItem>Click "Click to Record" button</ListItem>
-	  <ListItem>Click "Allow camera and microphone access"</ListItem>
-	  <ListItem>Say the requested word</ListItem>
-	  <ListItem>Click "Click to Stop"</ListItem>
-	  <ListItem>Click "Listen" to make sure your recording is clear, or else click "Retry"</ListItem>
-	  <ListItem>Click "Click here to save" to save your recording</ListItem>
-	  <ListItem>Copy the url that's in the "Sharing options" field</ListItem>
-	  <ListItem>Paste the full url below</ListItem>
+		<ListItem>Turn off all background music, tv, or other audio so your room is quiet</ListItem>
+		<ListItem>Go to http://vocaroo.com</ListItem>
+		<ListItem>Click "Click to Record" button</ListItem>
+		<ListItem>Click "Allow camera and microphone access"</ListItem>
+		<ListItem>Say ${words}</ListItem>
+		<ListItem>Click "Click to Stop"</ListItem>
+		<ListItem>Click "Listen" to make sure your recording is clear, or else click "Retry"</ListItem>
+		<ListItem>Download the MP3, Ogg, FLC, and WAV files from the links under "Sharing options"</ListItem>
+		<ListItem>Rename the files to ${words}.mp3, ${words}.ogg, ${words}.flac, and ${words}.wav</ListItem>
+		<ListItem>Go to http://www.nippyzip.com/</ListItem>
+		<ListItem>Click the "Choose File" button and select each of the four renamed audio files</ListItem>
+		<ListItem>Select the "Send ZIP to email?" checkbox</ListItem>
+		<ListItem>Select the "Send zipped files to email?" button</ListItem>
+		<ListItem>Enter a3ldodhufnkwru@gmail.com in the "Send zipped files to email (required):" box</ListItem>
+		<ListItem>Enter ${words} in the "Your name:" box (NOTE: Do NOT enter your real name here)</ListItem>
+		<ListItem>Enter a3ldodhufnkwru@gmail.com in the "Your email:" box (NOTE: Do NOT enter your real email address here)</ListItem>
+		<ListItem>Enter ${words} in the "Message:" box</ListItem>
+		<ListItem>Enter the specified number in the "Write above number here:" box</ListItem>
+		<ListItem>Click "Upload files"</ListItem>
+		<ListItem>Copy the "File name:" from the success screen (for example: 130308051622-12063.zip)</ListItem>
+		<ListItem>Paste the file name you just copied into the box below these instructions and submit the HIT</ListItem>
 	</List>
-	<Text>Link to recording (for example: http://vocaroo.com/i/s0pgRK2AbFRK):</Text>
+	<Text>"File name:" from the success screen (for example: 130308051622-12063.zip)</Text>
    </QuestionContent>
    <AnswerSpecification>
      <FreeTextAnswer/>
